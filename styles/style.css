@@ -45,7 +45,7 @@ nav input[type=button] {
     background-color: transparent;
     border: none;
     display: block;
-    font-size: large;
+    font-size: 19px;
     margin: 0px auto;
     text-decoration: none;
     width:100%;
@@ -78,7 +78,7 @@ nav .row {
 }
 
 .content p, i, b {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .content h1 {
