@@ -10,7 +10,7 @@ p a, .fill-div a {
 }
 
 header {
-    width: 100vw;
+    width: calc(100vw - 12px);
 }
 
 body {
@@ -71,6 +71,7 @@ nav .row {
     padding-right: 7.5%;
     padding-left: 7.5%;
     padding-bottom: 30px;
+    width: 100vw
 }
 
 .content i {
