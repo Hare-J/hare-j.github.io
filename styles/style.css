@@ -96,4 +96,5 @@ nav .row {
 
 .fill-div {
     height: calc(100vh - 66px);
+    width: 100vw;
 }
