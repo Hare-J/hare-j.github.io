@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    color:#f1f6fb;
+
+}
+
+p a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+header {
+    width: 100vw;
+}
+
+body {
+    font-family: 'Ubuntu Mono', sans-serif;
+}
+
+/* bgc - og pink : #fcd7e2 */
+/* bgc - calm pastel red : #ffaea8 */
+nav {
+    background-color: #242427;
+    font-family: 'Ubuntu Mono', monospace;
+    margin:0px;
+    padding:0px;
+}
+
+nav h3 {
+    margin: 16px 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+nav a {
+    color: inherit;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: inherit
+}
+
+nav input[type=button] {
+    background-color: transparent;
+    border: none;
+    display: block;
+    font-size: large;
+    margin: 0px auto;
+    text-decoration: none;
+    width:100%;
+    height:100%;
+}
+
+/* old hover code: #34312b */
+nav input[type=button]:hover {
+    background-color: #534e44;
+}
+
+nav .row {
+    height:100%;
+    width:100%;
+}
+
+
+/* CONTENT */
+.content {
+    background-color: #111112;
+    font-family:"Ubuntu Mono", monospace;
+    padding-top: 40px;
+    padding-right: 7.5%;
+    padding-left: 7.5%;
+    padding-bottom: 30px;
+}
+
+.content i {
+    font-weight: bold;
+}
+
+.content p, i, b {
+    font-size: 18px;
+}
+
+.content h1 {
+    margin-bottom: 30px;
+}
+
+.content .row {
+    margin-bottom: 25px;
+}
+
+.intro-card {
+    font-family: "Ubuntu Mono", monospace;
+}
+
+.fill-div {
+    height: calc(100vh - 66px);
+}
