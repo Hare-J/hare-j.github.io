@@ -14,7 +14,13 @@ header {
 }
 
 body {
+    -ms-overflow-style: none;
+    overflow-y: scroll;
     font-family: 'Ubuntu Mono', sans-serif;
+}
+
+body::-webkit-scrollbar {
+    display: none;
 }
 
 nav {
@@ -50,7 +56,6 @@ nav input[type=button] {
     height:100%;
 }
 
-/* old hover code: #34312b */
 nav input[type=button]:hover {
     background-color: #534e44;
 }
@@ -94,5 +99,9 @@ nav .row {
 
 .fill-div {
     height: calc(100vh - 66px);
+    width: 100vw;
+}
+
+.fill-width {
     width: 100vw;
 }

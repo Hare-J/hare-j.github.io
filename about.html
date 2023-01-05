@@ -11,9 +11,9 @@
 
     <link href="styles/style.css" rel="stylesheet">
 
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
@@ -27,138 +27,151 @@
 </head>
 
 <body>
-    <header>
-        <!-- NAV BAR -->
-        <nav class="row text-center">
-            <div class="col-sm-3">
-                <h3><a href="index.html">James Hare</a></h3>
-            </div>
-            <div class="col-sm-9">
-                <div class="row" style="margin-bottom:0;">
-                    <div class="col-sm-6"></div>
+    <div class="fill-width">
+        <header>
 
-                    <!-- NAV LINKS -->
-                    <div class="col-sm-2">
-                        <a href="index.html"><input type="button" id="btnHome" value="Home"></a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a href="about.html"><input type="button" id="btnAbout" value="About"
-                            style="text-decoration:underline; font-weight:bold"></a>
-                    </div>
-                    <div class="col-sm-2">
-                        <a href="portfolio.html"><input type="button" id="btnPortfolio" value="Work"></a>
+            <!-- NAV BAR -->
+            <nav class="row text-center">
+                <div class="col-sm-3">
+                    <h3><a href="index.html">James Hare</a></h3>
+                </div>
+                <div class="col-sm-9">
+                    <div class="row" style="margin-bottom:0;">
+                        <div class="col-sm-6"></div>
+
+                        <!-- NAV LINKS -->
+                        <div class="col-sm-2">
+                            <a href="index.html"><input type="button" id="btnHome" value="Home"></a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="about.html"><input type="button" id="btnAbout" value="About"
+                                    style="text-decoration:underline; font-weight:bold"></a>
+                        </div>
+                        <div class="col-sm-2">
+                            <a href="portfolio.html"><input type="button" id="btnPortfolio" value="Work"></a>
+                        </div>
                     </div>
                 </div>
+            </nav>
+            <!-- END NAV BAR -->
+        </header>
+
+
+        <div class="content">
+
+            <!-- WHO AM I? -->
+            <h2>Who am I?</h2>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p>
+                        My name is James and I am a full-stack software developer in Welland and graduate of
+                        Niagara College's Computer Programmer Analyst program.
+                    </p>
+                    <p>
+                        I have a wide variety of experience in all areas of software development, as both an individual
+                        and a team member,
+                        building everything from SQLS data warehouses to complex point-of-sale systems.
+                        Some of the projects I'm most proud of, or even just had the most fun working on, can be found
+                        in the
+                        <a href="portfolio.html">Work</a> section of this site or on my GitHub page at
+                        <a href="https://github.com/Hare-J" target="_blank">Hare-J</a>.
+                    </p>
+                    <p>
+                        I am extremely passionate about building quality software following solid object-oriented design
+                        for
+                        ease of future use
+                        and development.
+                    </p>
+
+                    <h3>Contact Me:</h3>
+                    <p>Phone: (289) 228-1888 &nbsp;&nbsp;&nbsp;&nbsp; Email: jahare@live.ca </p>
+                    <p></p>
+                </div>
+
+                <div class="col-sm-6">
+                    <img src="resources/jhare_cas_pfl_crpd.jpg" alt="Headshot of James Hare"
+                        class="mx-auto d-block rounded-circle img-fluid" style="width: 35%;">
+                </div>
             </div>
-        </nav>
-        <!-- END NAV BAR -->
-    </header>
+            <hr>
+            <!-- EXPERIENCE -->
+            <div class="row">
+                <h2 style="margin-bottom:15px">Experience</h2>
 
-    
-    <div class="content">
+                <p><a href="resources/JHare - Resume.pdf" target="_blank">My Resume</a></p>
 
-        <!-- WHO AM I? -->
-        <h2>Who am I?</h2>
-        <div class="row">
-            <div class="col-sm-6">
+                <h3>Niagara College Peer Tutoring</h3>
                 <p>
-                    My name is James and I am a full-stack software developer in Welland and graduate of
-                    Niagara College's Computer Programmer Analyst program.
+                    During my second and third terms I was hired by the college as a peer tutor for a number of classes
+                    and helped over a dozen
+                    students to understand difficult concepts in C#, Javascript, and Python.
                 </p>
                 <p>
-                    I have a wide variety of experience in all areas of software development, as both an individual
-                    and a team member,
-                    building everything from SQLS data warehouses to complex point-of-sale systems.
-                    Some of the projects I'm most proud of, or even just had the most fun working on, can be found
-                    in the
-                    <a href="portfolio.html">Work</a> section of this site or on my GitHub page at
-                    <a href="https://github.com/Hare-J" target="_blank">Hare-J</a>.
+                    Surprisingly, to me at least, this was immensely helpful for my own learning as well, as it forced
+                    me to
+                    research simpler topics that
+                    might have been skimmed over otherwise. Additionally, it gave me extra practice programming simple
+                    apps
+                    through creating example
+                    and practice work for the students I tutored to help give more context to the content they were
+                    learning
+                    in class.
+                </p>
+
+                <h3 style="margin-bottom:15px">Community Project</h3>
+                <p>
+                    During my fourth term with the college I helped work on a custom point-of-sales system for a
+                    local food charity.
                 </p>
                 <p>
-                    I am extremely passionate about building quality software following solid object-oriented design for
-                    ease of future use
-                    and development.
+                    For this project I was part of a team of six students with the goal of designing and developing this
+                    system from the ground up, working with the client from the beginning to deliver the features they
+                    wanted to streamline different day-to-day tasks for their business. We ended up creating this system
+                    as
+                    a web app using C# and SQLite with the Model-View-Controller design pattern and spent four months
+                    total
+                    working on it.
                 </p>
-
-                <h3>Contact Me:</h3>
-                <p>Phone: (289) 228-1888 &nbsp;&nbsp;&nbsp;&nbsp; Email: jahare@live.ca </p>
-                <p></p>
             </div>
 
-            <div class="col-sm-6">
-                <img src="resources/jhare_cas_pfl_crpd.jpg" alt="Headshot of James Hare" class="mx-auto d-block rounded-circle img-fluid"
-                    style="width: 35%;">
+            <hr>
+
+            <!-- MISSION STATEMENT -->
+            <div class="row">
+                <h2>My Mission Statement</h2>
+                <i>Every piece of work you create represents you as a person and should be completed to the highest
+                    possible
+                    (and realistic) standard.</i>
+                <p>
+                    While it can often be tempting to take the easy way through things, I have found that doing so
+                    rarely
+                    leads me to a place of positive growth.
+                </p>
+                <i>A team is only as strong as its ability to support its weakest members.</i>
+                <p>
+                    In the past there have been many situations where
+                    I have been the one offering support, but also many where I felt completely alone and lost, and
+                    these
+                    have been my absolute
+                    worst experiences both for project outcome and growth. For the good of everyone, and for the good of
+                    the
+                    project, it is
+                    always the right thing in my experience to support your team above all else.
+                </p>
+                <i>Failure is an important contributor to growth and should be treated as a valuable learning
+                    experience.</i>
+                <p>
+                    Some of the most
+                    important and lasting experiences during my development as a professional and as a person have been
+                    failures. Obviously
+                    it's better to avoid failure when at all possible, but that isn't always an option and if you're
+                    going
+                    to fail you might
+                    as well accept the discomfort and take away as much as you possibly can from it.
+                </p>
             </div>
-        </div>
-<hr>
-        <!-- EXPERIENCE -->
-        <div class="row">
-            <h2 style="margin-bottom:15px">Experience</h2>
-
-            <p><a href="resources/JHare - Resume.pdf" target="_blank">My Resume</a></p>
-
-            <h3>Niagara College Peer Tutoring</h3>
-            <p>
-                During my second and third terms I was hired by the college as a peer tutor for a number of classes
-                and helped over a dozen
-                students to understand difficult concepts in C#, Javascript, and Python.
-            </p>
-            <p>
-                Surprisingly, to me at least, this was immensely helpful for my own learning as well, as it forced me to
-                research simpler topics that
-                might have been skimmed over otherwise. Additionally, it gave me extra practice programming simple apps
-                through creating example
-                and practice work for the students I tutored to help give more context to the content they were learning
-                in class.
-            </p>
-
-            <h3 style="margin-bottom:15px">Community Project</h3>
-            <p>
-                During my fourth term with the college I helped work on a custom point-of-sales system for a
-                local food charity.
-            </p>
-            <p>
-                For this project I was part of a team of six students with the goal of designing and developing this
-                system from the ground up, working with the client from the beginning to deliver the features they
-                wanted to streamline different day-to-day tasks for their business. We ended up creating this system as
-                a web app using C# and SQLite with the Model-View-Controller design pattern and spent four months total
-                working on it.
-            </p>
-        </div>
-
-        <hr>
-        
-        <!-- MISSION STATEMENT -->
-        <div class="row">
-            <h2>My Mission Statement</h2>
-            <i>Every piece of work you create represents you as a person and should be completed to the highest possible
-                (and realistic) standard.</i>
-            <p>
-                While it can often be tempting to take the easy way through things, I have found that doing so rarely
-                leads me to a place of positive growth.
-            </p>
-            <i>A team is only as strong as its ability to support its weakest members.</i>
-            <p>
-                In the past there have been many situations where
-                I have been the one offering support, but also many where I felt completely alone and lost, and these
-                have been my absolute
-                worst experiences both for project outcome and growth. For the good of everyone, and for the good of the
-                project, it is
-                always the right thing in my experience to support your team above all else.
-            </p>
-            <i>Failure is an important contributor to growth and should be treated as a valuable learning
-                experience.</i>
-            <p>
-                Some of the most
-                important and lasting experiences during my development as a professional and as a person have been
-                failures. Obviously
-                it's better to avoid failure when at all possible, but that isn't always an option and if you're going
-                to fail you might
-                as well accept the discomfort and take away as much as you possibly can from it.
-            </p>
         </div>
     </div>
-
     <script src="scripts/app.js"></script>
 </body>
 
