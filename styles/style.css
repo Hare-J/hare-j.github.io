@@ -1,6 +1,6 @@
 * {
     box-sizing: border-box;
-    color:#f1f6fb;
+    /* color:#f1f6fb; */
 
 }
 
@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
 
 nav {
     background-color: #242427;
+    color:#f1f6fb;
     font-family: 'Ubuntu Mono', monospace;
     margin:0px;
     padding:0px;
@@ -47,6 +48,7 @@ nav a:hover {
 
 nav input[type=button] {
     background-color: transparent;
+    color:#f1f6fb;
     border: none;
     display: block;
     font-size: 19px;
@@ -68,7 +70,7 @@ nav .row {
 
 /* CONTENT */
 .content {
-    background-color: #111112;
+    /* background-color: #111112; */
     font-family:"Ubuntu Mono", monospace;
     padding-top: 40px;
     padding-right: 7.5%;
@@ -104,11 +106,11 @@ nav .row {
 
 /* styling for fade-in on index.html */
 .fade-in {
-    animation: fadeIn 8s;
-    -webkit-animation: fadeIn 8s;
-    -moz-animation: fadeIn 8s;
-    -o-animation: fadeIn 8s;
-    -ms-animation: fadeIn 8s;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
+    -moz-animation: fadeIn 6s;
+    -o-animation: fadeIn 6s;
+    -ms-animation: fadeIn 6s;
 }
 @keyframes fadeIn {
     0% { opacity: 0; }
