@@ -26,12 +26,13 @@ body::-webkit-scrollbar {
 nav {
     background-color: #242427;
     color:#f1f6fb;
-    font-family: 'Ubuntu Mono', monospace;
+    /* font-family: 'Ubuntu Mono', monospace; */
     margin:0px;
     padding:0px;
 }
 
 nav h3 {
+    font-family: 'Ubuntu Mono', monospace;
     margin: 16px 0px;
     padding-left: 0px;
     padding-right: 0px;
@@ -71,7 +72,9 @@ nav .row {
 /* CONTENT */
 .content {
     /* background-color: #111112; */
-    font-family:"Ubuntu Mono", monospace;
+    background-color: #fefff8;
+    /* font-family:"Ubuntu Mono", monospace; */
+    font-family: "Source Sans Pro", sans-serif;
     padding-top: 40px;
     padding-right: 7.5%;
     padding-left: 7.5%;
