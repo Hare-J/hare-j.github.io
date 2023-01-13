@@ -14,14 +14,15 @@ header {
 }
 
 body {
-    -ms-overflow-style: none;
+    /* -ms-overflow-style: none; */
+    overflow-x: hidden;
     overflow-y: scroll;
     font-family: 'Ubuntu Mono', sans-serif;
 }
 
-body::-webkit-scrollbar {
+/* body::-webkit-scrollbar {
     display: none;
-}
+} */
 
 nav {
     background-color: #242427;
