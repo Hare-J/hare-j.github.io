@@ -54,14 +54,9 @@ nav input[type=button] {
     border: none;
     display: block;
     font-size: 19px;
-    margin: 0px auto;
     text-decoration: none;
     width:100%;
     height:100%;
-}
-
-nav input[type=button]:hover {
-    background-color: #534e44;
 }
 
 nav .row {
@@ -69,6 +64,41 @@ nav .row {
     width:100%;
 }
 
+/* NAVIGATION TABS */
+.nav-tab {
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+    padding-top: 7px;
+}
+
+.nav-tab input[type=button] {
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+}
+
+.nav-tab :hover {
+    background-color: #343438;
+}
+
+.nav-tab-selected {
+    color: #242427;
+    font-weight: bold;
+    padding-top: 7px;
+}
+
+.nav-tab-selected input[type=button] {
+    background-color: #fefff8;
+    border-top-left-radius: 50%; 
+    border-top-right-radius: 50%;
+    color: #242427;
+    font-weight: bold;
+}
+
+.nav-tab-selected input[type=button] :hover{
+    color: #242427;
+    font-weight: bold;
+}
+/* END NAVIGATION TABS */
 
 /* CONTENT */
 .content {
