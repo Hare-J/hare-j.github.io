@@ -65,6 +65,7 @@ nav .row {
 }
 
 /* NAVIGATION TABS */
+@media screen and (min-width: 1000px) {
 .nav-tab {
     border-top-left-radius: 50%; 
     border-top-right-radius: 50%;
@@ -97,6 +98,7 @@ nav .row {
 .nav-tab-selected input[type=button] :hover{
     color: #242427;
     font-weight: bold;
+}
 }
 /* END NAVIGATION TABS */
 
