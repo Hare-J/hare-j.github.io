@@ -1,6 +1,3 @@
-<!-- Ubu: ctrl + shift + i -->
-<!-- Win: shift + alt + f-->
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -11,14 +8,17 @@
 
     <link href="styles/style.css" rel="stylesheet">
 
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap" rel="stylesheet">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@400;700&display=swap" rel="stylesheet">
 
+
+
+    <!-- BOOTSTRAP -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
@@ -31,50 +31,221 @@
 </head>
 
 <body>
-    <header>
-        <!-- NAV BAR -->
-        <nav class="row text-center">
-            <div class="col-sm-3">
-                <h3>James Hare</h3>
-            </div>
-            <div class="col-sm-9">
-                <div class="row" style="margin-bottom:0;">
-                    <div class="col-sm-4"></div>
-                    <div class="col-sm-2 nav-tab-selected" id="divHome">
-                        <a href="index.html"><input type="button" id="btnHome" value="Home"></a>
-                    </div>
-                    <div class="col-sm-2 nav-tab">
-                        <a href="about.html"><input type="button" id="btnAbout" value="About"></a>
-                    </div>
-                    <div class="col-sm-2 nav-tab">
-                        <a href="portfolio.html"><input type="button" id="btnPortfolio" value="Work"></a>
-                    </div>
-                    <div class="col-sm-2 nav-tab">
-                        <a href="contact.html"><input type="button" id="btnPortfolio" value="Contact Me"></a>
-                    </div>
-                </div>
-            </div>
-        </nav>
-
-    </header>
-    <!-- END NAV BAR -->
-
-
+    <!-- BEGIN INTRO SPLASH -->
     <div class="content intro-card fill-div">
-        <div class="fade-in">
-            <h1 class="text-center" style="font-size:60px;margin-top:15%">James Hare</h1>
+        <div class="fade-in intro-content">
+            <h1 class="text-center" style="font-size:60px;margin-top:12%">James Hare</h1>
             <h2 class="text-center">Computer Programmer Analyst</h2>
 
             <div class="row" style="font-size: 21px;padding-top:4%;">
                 <div class="col-sm-4"></div>
                 <div class="col-sm-2 text-center">
-                    <a href="portfolio.html">My Work</a>
+                    <!-- <a href="portfolio.html">My Work</a> -->
+                    <button id="btnAbout">About Me</button>
                 </div>
-                <div class="col-sm-2 text-center"><a href="about.html">About Me</a></div>
+                <div class="col-sm-2 text-center">
+                    <!-- <a href="about.html">About Me</a> -->
+                    <button id="btnPortfolio">Portfolio</button>
+                </div>
                 <div class="col-sm-4"></div>
+            </div>
+            <div class="row" style="font-size: 21px; padding-top:4%;">
+                <div class="col-sm-5"></div>
+                <div class="col-sm-2 text-center">
+                <a href="res/JHare - Resume.pdf" target="_blank">My Resume</a>
+                </div>
+                <div class="col-sm-5"></div>
             </div>
         </div>
     </div>
+    <!-- END INTRO SPLASH -->
+
+    <!-- BEGIN ABOUT ME -->
+    <div class="content" id="about-page">
+        <hr>
+        <!-- who am i? -->
+        <h2>Who am I?</h2>
+        <div class="row">
+            <div class="col-sm-6">
+                <p>
+                    My name is James and I am a full-stack software developer in Welland and graduate of
+                    Niagara College's Computer Programmer Analyst program.
+                </p>
+                <p>
+                    I have a wide variety of experience in all areas of software development, as both an individual
+                    and a team member,
+                    building everything from SQLS data warehouses to complex point-of-sale systems.
+                    Some of the projects I'm most proud of, or even just had the most fun working on, can be found
+                    in the
+                    <a href="portfolio.html">Work</a> section of this site or on my GitHub page at
+                    <a href="https://github.com/Hare-J" target="_blank">Hare-J</a>.
+                </p>
+                <p>
+                    I am extremely passionate about building quality software following solid object-oriented design
+                    for
+                    ease of future use
+                    and development.
+                </p>
+
+                <p></p>
+            </div>
+
+            <div class="col-sm-6">
+                <img src="res/harej-030323.jpg" alt="Headshot of James Hare"
+                    class="mx-auto d-block rounded-circle img-fluid" style="width: 45%;">
+            </div>
+        </div>
+        <hr>
+        <!-- experience -->
+        <div class="row">
+            <h2 style="margin-bottom:15px">Experience</h2>
+
+            <p><a href="res/JHare - Resume.pdf" target="_blank">My Resume</a></p>
+
+            <h3>Niagara College Peer Tutoring</h3>
+            <p>
+                During my second and third terms I was hired by the college as a peer tutor for a number of classes
+                and helped over a dozen
+                students to understand difficult concepts in C#, Javascript, and T-SQL development.
+            </p>
+            <p>
+                This was immensely helpful for my own learning as well, as it forced
+                me to
+                research simpler topics that
+                might have been skimmed over otherwise. Additionally, it gave me extra practice programming simple
+                apps
+                through creating example
+                and practice work for the students I tutored to help give more context to the content they were
+                learning
+                in class.
+            </p>
+
+            <h3 style="margin-bottom:15px">Community Project</h3>
+            <p>
+                During my fourth term with the college I helped work on a custom point-of-sales system for a
+                local food charity.
+            </p>
+            <p>
+                For this project I was part of a team of six students with the goal of designing and developing this
+                system from the ground up, working with the client from the beginning to deliver the features they
+                wanted to streamline different day-to-day tasks for their business. We ended up creating this system
+                as
+                a web app using C# and SQLite with the Model-View-Controller design pattern and spent four months
+                total
+                working on it.
+            </p>
+        </div>
+    </div>
+    <!-- END ABOUT ME -->
+
+    <!-- BEGIN PORTFOLIO -->
+    <div class="content portfolio-page" id="portfolio-page">
+        <h1 class="text-center">My Work</h1>
+
+        <!-- tcp/ip client server  -->
+        <div class="row">
+            <h2 style="margin-top:50px">Java TCP/IP Client-Server Project</h2>
+            <div class="col-sm-8">
+                <p>
+                    In my sixth semester one of the courses I took was on mobile development with Java, which included a
+                    hands-on test that required me
+                    to create a TCP/IP client-server chatroom. This was pretty different from what I'd done to that
+                    point,
+                    which
+                    was almost exclusively done in
+                    C# and was more focused on developing stand-alone apps that would at most communicate with a
+                    database. It was also my first time doing
+                    any work with multithreading, which was difficult at first but enjoyable to work through.
+                </p>
+                <p>
+
+                </p>
+                <p>
+                    <b>Skills used:</b> Java, TCP/IP networking, organization
+                </p>
+                <p>You can find the source code for this project in its <a
+                        href="https://github.com/Hare-J/special-parakeet-server" target="_blank">GitHub repository</a>.
+                </p>
+            </div>
+            <div class="col-sm-2">
+                <img src="res/tcpip-chat.png" alt="a conversation in a chat app" class="rounded mx-auto d-block"
+                    style="height:350px; width:auto;">
+            </div>
+            <div class="col-sm-2">
+                <img src="res/tcpip-server-frame.png" alt="an image of the server frame for a TCP/IP server"
+                    class="rounded mx-auto d-block" style="height:350px; width:auto;">
+            </div>
+        </div>
+        <hr>
+        <!-- this site  -->
+        <div class="row">
+            <h2 style="margin-top:50px">This Website</h2>
+            <p>
+                I made this entire site from scratch for COMM1310 in my final semester with Niagara College with HTML
+                and CSS with
+                Bootstrap. I didn't have much experience with web development specifically before this project, having
+                worked mainly with
+                MVC views and razor code in C#, but this project seemed like a great opportunity to get some more
+                experience creating
+                responsive, modern web pages.
+            </p>
+            <p>
+                <b>Skills used:</b> UX design, HTML/CSS
+            </p>
+            <p>You can find the source code for this project in its <a href="https://github.com/Hare-J/Hare-J.github.io"
+                    target="_blank">GitHub repository</a>.</p>
+        </div>
+        <hr>
+        <!-- restful api -->
+        <div class="row">
+            <h2 style="margin-top:50px">RESTful API with C# MVC Framework</h2>
+            <p>
+                During my fourth term I took a course in mobile development where I learned how to build custom API's
+                and Xamarin Forms (MAUI.NET) apps
+                in C# using both MVC and MVVM design patterns. For my final project in this course, I decided to build
+                an API and
+                accompanying Xamarin Forms app.
+                The Xamarin Forms app is still in development, but the API is functional with Swagger.
+            </p>
+            <p>
+                <b>Skills used:</b> Organization, C#, MVC (API), MVVM (XF), Swagger
+            </p>
+            <p>You can find the source code for this project in its <a href="https://github.com/Hare-J/super-fiesta-api"
+                    target="_blank">GitHub repository</a>.</p>
+
+            <img src="res/api-swagger.png" alt="Swagger UI showing Pokemon in an API"
+                class="rounded mx-auto d-block" style="width:50%; height:auto; padding-top: 20px; padding-bottom:15px;">
+        </div>
+        <hr>
+        <!-- community project -->
+        <div class="row">
+            <h2 style="margin-top:50px">Community Project - C#/SQLite Point Of Sales System </h2>
+            <p>
+                At the beginning of my fourth term with Niagara College, I was put into a team of six that I had
+                previously worked with
+                in another course with the intention of taking on a long-term live development process for a local
+                charity competing with three other
+                groups for app adoption.
+            </p>
+            <p>
+                Throughout the four month long term, we designed the application from the ground up, meeting with the
+                client regularly to
+                make sure we were including everything they wanted and were able to plan for future feature
+                implementations. This made for a great lesson in the importance of
+                teamwork and
+                communication on large projects, especially given the tight deadlines we had to work with. We built the
+                application using the C# MVC framework for all the inner workings and front
+                end, and SQLite
+                for their database.
+            </p>
+            <p>
+                <b>Skills used:</b> Teamwork, communication, C# MVC, UX design
+            </p>
+            <img src="res/grow-dashboard.png" alt="image of a point of sales dashboard"
+                class="rounded mx-auto d-block" style="width:50%; height:auto; padding-top: 20px;">
+        </div>
+        <!-- END PORTFOLIO-->
+
     <script src="scripts/app.js"></script>
 </body>
 
