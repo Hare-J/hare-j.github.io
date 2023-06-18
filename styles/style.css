@@ -52,14 +52,12 @@ footer {
 }
 
 .fade-in {
-    animation: fadeIn 5s;
-    animation-delay: 1.5s;
-    
-    /* -webkit-animation: fadeIn 6s;
+    animation: fadeIn 6s;
+    -webkit-animation: fadeIn 6s;
     -moz-animation: fadeIn 6s;
     -o-animation: fadeIn 6s;
-    -ms-animation: fadeIn 6s;*/
-} 
+    -ms-animation: fadeIn 6s;
+}
 
 @keyframes fadeIn {
     0% {
