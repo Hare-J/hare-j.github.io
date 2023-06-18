@@ -15,6 +15,11 @@ hr {
     size: 20px;
 }
 
+footer {
+    padding-top: 40px;
+    text-align: center;
+}
+
 .content {
     /* background-color: #111112; */
     background-color: #ffffff;
@@ -38,6 +43,12 @@ hr {
 
 .intro-card button {
     width: 130px;
+}
+
+.intro-card button:hover {
+    border-color: #8a8a8a;
+    background-color: #000000;
+    color: #ffffff
 }
 
 .fade-in {
@@ -102,4 +113,28 @@ hr {
 
 .portfolio-page {
     padding-top: 45px;
+}
+
+.skills-page {
+
+}
+
+.skills-page h2 {
+    font-size: 1.37em;
+    font-weight: bold;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.skills-page ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+.list-box {
+    border-color: black;
+    border-style: outset;
+    border-width: 5px;
+    margin-top: 10px;
 }
